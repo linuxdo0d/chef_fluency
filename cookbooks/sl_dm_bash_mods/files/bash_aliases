@@ -1,0 +1,6 @@
+alias sp='echo SUCKING IN NEW PROFILE && source ~/.bashrc'
+alias sl_metapod='sudo openvpn --config ~/openvpn_connections/SL-MetaPOD.ovpn'
+alias sl_hq='sudo openvpn --config ~/openvpn_connections/SL-HQ.ovpn'
+alias sl_prod='sudo openvpn --config ~/openvpn_connections/SL-PRODv2-VPN.ovpn'
+alias sl_jcc='sudu openvpn --config ~/openvpn_connections/SL-PRODv2-JCCFM-VPN.ovpn'
+alias jenkins='ssh -i ~/.ssh/jenkins_rsa ec2-user@jenkins.clouddev.snaplogic.com'
